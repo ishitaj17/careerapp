@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1D47E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to Career Counselling System"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="110dp"
+        android:text="Login Page"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="146dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:text="Enter Student ID"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/studid"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="170dp"
+        android:hint="NULL"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:text="Enter Username"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="230dp"
+        android:hint="NULL"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/passwordtext"
+        android:layout_width="146dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:text="Enter Password"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="290dp"
+        android:hint="NULL"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <Button
+        android:id="@+id/adminnbut"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:text="Admin Login"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/loginbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="360dp"
+        android:text="Login"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/regbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="360dp"
+        android:text="REGISTER"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/forgotbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="420dp"
+        android:text="Forgot Password"
+        android:textSize="15dp"
+
+        />
+    <Button
+        android:id="@+id/forgotuserbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:text="Forgot User Name"
+        android:textSize="15dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:text="If you are a New User, then register yourself prior to Login"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+         />
+
+</RelativeLayout>

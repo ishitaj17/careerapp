@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "897157438812",
+    "firebase_url": "https://ishitaproj-default-rtdb.firebaseio.com",
+    "project_id": "ishitaproj",
+    "storage_bucket": "ishitaproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897157438812:android:1cc707553668b58b9d7599",
+        "android_client_info": {
+          "package_name": "com.example.careerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897157438812-hhgbq38crenpaddllsver8m1gvnlgpmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAjyIVR0ZGrlLqIXAvu1LjVM1NKfZW71U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897157438812-hhgbq38crenpaddllsver8m1gvnlgpmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A586DD"
+    tools:context=".forgot_pass">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to Career Counselling System"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="110dp"
+        android:text="Forgot Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="146dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:text="Enter Student ID"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/studentid"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="170dp"
+        android:hint="NULL"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:text="Enter New Password"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/newpass"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="240dp"
+        android:hint="NULL"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/changebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="300dp"
+        android:text="CHANGE PASSWORD"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/backtologbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="360dp"
+        android:text="Back to Login Page"
+        android:textSize="15dp"
+
+        />
+
+</RelativeLayout>

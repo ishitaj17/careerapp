@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BEF8F"
+    tools:context=".booking_page">
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Appointment Booking Page"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="105dp"
+        android:text="Full Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameetext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="90dp"
+        android:hint="NULL"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="155dp"
+        android:text="Phone Number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phonetext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="140dp"
+        android:hint="NULL"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/genduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="265dp"
+        android:text="Gender"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="250dp"
+        android:hint="NULL"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/studentid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="215dp"
+        android:text="Student ID"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/studid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="200dp"
+        android:hint="NULL"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="320dp"
+        android:text="Appointment Date"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/appointdate"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="310dp"
+        android:hint="NULL"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/datebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="360dp"
+        android:text="PICK DATE"
+
+        />
+
+    <TextView
+        android:id="@+id/appointtxt"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:text="Appointment Time"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/appointtime"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="410dp"
+        android:hint="NULL"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/timebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PICK TIME"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="460dp"
+
+        />
+
+    <Button
+        android:id="@+id/bookslot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="525dp"
+        android:text="BOOK SLOT"
+
+        />
+
+
+
+</RelativeLayout>
